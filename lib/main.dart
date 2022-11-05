@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preference_app/shared_pre_demo1/views/demo1_home_screen.dart';
+import 'package:shared_preference_app/shared_pre_demo2/views/demo2_home_screen.dart';
 import 'package:shared_preference_app/todo_project/screens/home_screen.dart';
 
 void main(){
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget{
       ),
       debugShowCheckedModeBanner: false,
 
-      home: Demo1HomeScreen(),
+      home: Demo2HomeScreen(),
     );
   }
 }
