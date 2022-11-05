@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:shared_preference_app/global/global.dart';
 import 'package:shared_preference_app/todo_project/constants/app_colors.dart';
-import 'package:shared_preference_app/todo_project/global/global.dart';
 import 'package:shared_preference_app/todo_project/model/todo.dart';
 import 'package:shared_preference_app/todo_project/screens/todo_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
